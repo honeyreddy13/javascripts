@@ -25,7 +25,8 @@ console.log(anothername)
 anothername = "chaoaurcode"
 console.log(anothername)
 let user = {
-    email : "honeyreddymudireddy@gmail.com"
-    upi : "userybl"
+    email : "honeyreddymudireddy@gmail.com",
+    upi: "userybl"
 }
 let user2 = user
+
