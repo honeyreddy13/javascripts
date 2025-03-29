@@ -16,11 +16,11 @@ const mycoding = [
     {
         languagename:"javascript",
         languagefilename:"js"
-    }
+    },
     {
         languagename:"python",
         languagefilename:"py"
-    }
+    },
     {
         languagename:"r programming",
         languagefilename:"r"
