@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Color Changer</title>
+    <style>
+        .button {
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            margin: 10px;
+            border: 2px solid #000;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        #grey { background-color: grey; }
+        #white { background-color: white; }
+        #red { background-color: red; }
+        #yellow { background-color: yellow; }
+        #purple { background-color: purple; }
+
+        body {
+            text-align: center;
+            padding-top: 50px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Click a button to change background color</h2>
+    <div class="button" id="grey"></div>
+    <div class="button" id="white"></div>
+    <div class="button" id="red"></div>
+    <div class="button" id="yellow"></div>
+    <div class="button" id="purple"></div>
+
+    <script src="chaiaurcode.js"></script>
+</body>
+</html>
