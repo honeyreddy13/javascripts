@@ -55,3 +55,14 @@ form.addEventListener('submit',function(e){
     result.innerHTML=`${height}`
 })
 ```
+
+```
+#Project 3 - Display the clock
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+    let date = new Date();
+    // console.log(date.toLocaleTimeString());
+    clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+```
